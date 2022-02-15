@@ -16,7 +16,7 @@ SRCS    = $(OBJS:.o=.cc)
 
 ###########################################################################
 
-release debug: $(BINARY)
+release debug all: $(BINARY)
 
 $(BINARY): $(OBJS)
 	$(CXX) -o $@ $(DEBUG) $(LDFLAGS) $(OBJS) $(LIBS)
