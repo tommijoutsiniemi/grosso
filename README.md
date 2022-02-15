@@ -1,8 +1,15 @@
 # grosso
-Grosso worm game
+# Grosso worm game
 
 ![alt text](https://github.com/tommijoutsiniemi/grosso/blob/main/misc/grosso-ss.png?raw=true)
 
-Instructions:
+# Build
+	make all
+
+# Install
+	sudo make install
+
+# Instructions forplaying:
 
 ![alt text](https://github.com/tommijoutsiniemi/grosso/blob/main/misc/grosso-help.png?raw=true)
+
