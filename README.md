@@ -2,6 +2,8 @@
 
 ## Grosso worm game
 
+Grosso was designed for 80x24 character terminal.
+
 ![alt text](https://github.com/tommijoutsiniemi/grosso/blob/main/misc/grosso-ss.png?raw=true)
 
 ## Build
