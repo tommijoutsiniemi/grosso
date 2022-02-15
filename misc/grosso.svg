@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.0//EN" "http://www.w3.org/TR/2001/PR-SVG-20010719/DTD/svg10.dtd">
+<svg width="95cm" height="38cm" viewBox="19 19 1887 750" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g id="Background">
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1340" y="20" width="564.4" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1622.2" y="38.8516">Field</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1340" y="48" width="564.4" height="196"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="61.8813">-_height: Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="77.8813">-_numLevels: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="93.8813">-_screenHeight: Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="109.881">-_screenWidth: Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="125.881">-_width: Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="141.881">-_window: WINDOW*</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="157.881">-_xdim: Dims</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="173.881">-_ydim: Dims</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="189.881">-aargh: #ifdef AVOID_MVWINCH vector&lt;Item&gt;</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="205.881">-nColours_: short</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="221.881">+EMPTY: static const Item</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="237.881">+REVERSE: static const Attr</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="1340" y="244" width="564.4" height="308"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="257.881">-DrawLevel(f:FILE*,x:Dim,y:Dim,width:Dim,height:Dim,colourNum:ColourNum)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="273.881">+AttrOff(attrs:Attr)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="289.881">+AttrOn(attrs:Attr)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="305.881">+Clear()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="321.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="337.881">+Field(width:Dim,height:Dim)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="353.881">+Flush()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="369.881">+GetItem(x:Dim,y:Dim): Item</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="385.881">+Height(): Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="401.881">+Key(): int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="417.881">+Level(level:int,colourNum:ColourNum)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="433.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="449.881">+NewColour(fg:ColourNum,bg:ColourNum): ColourNum</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="465.881">+NumLevels(): int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="481.881">+PutItem(i:Item,colourNum:ColourNum,x:Dim,y:Dim)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="497.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="513.881">+Refresh()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="529.881">+Width(): Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1343" y="545.881">+~Field()</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="900" y="620" width="679.9" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="1239.95" y="638.852">Fred</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="900" y="648" width="679.9" height="52"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="661.881">-_dead: bool</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="677.881">-_probab: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="693.881">-_strength: int</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="900" y="700" width="679.9" height="68"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="713.881">-TryTurn(): MoveResult</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="729.881">+Fred(field:Field*,head:Field::Item,fg:Field::ColourNum,bg:Field::ColourNum,probab:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="745.881">+Reset(headx:Field::Dim,heady:Field::Dim,dir:int,length:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="903" y="761.881">+TryMove(turn:int=FORWARD): MoveResult</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="20" width="518.2" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="279.1" y="38.8516">Game</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="48" width="518.2" height="212"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="61.8813">-_field: Field\*</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="77.8813">-_foodOnField: bool</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="93.8813">-_foodTimer: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="109.881">-_freds: Freds</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="125.881">-_grosso: Grosso\*</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="141.881">-_numFoods: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="157.881">-_numGrossoes: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="173.881">-_running: bool</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="189.881">-_score: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="205.881">-_sleepTime: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="221.881">-fieldColourNum_: Field::ColourNum</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="237.881">-foodColourNum_: Field::ColourNum</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="253.881">-textColourNum_: Field::ColourNum</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="260" width="518.2" height="228"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="273.881">-ConfirmQuit(): int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="289.881">-EndGame()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="305.881">-FoodOnField()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="321.881">-Help()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="337.881">-InitFrame()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="353.881">-MoveFreds()</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="369.881">-MoveGrosso(turn:int): Grosso::MoveResult</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="385.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="401.881">-Play(): int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="417.881">-PlayLevel(level:int): bool</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="433.881">-ProcessKeyPress(): int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="449.881">+Game(width:int,height:int,numfreds:int,sleeptime:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="465.881">+Play(width:int,height:int,numFreds:int,sleeptime:int): static int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="481.881">+~Game()</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="520" width="610.6" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="805.3" y="538.852">Grosso</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="548" width="610.6" height="8"/>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="500" y="556" width="610.6" height="36"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="503" y="569.881">+Grosso(field:Field*,head:Field::Item,fg:Field::ColourNum,bg:Field::ColourNum)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="503" y="585.881">+TryMove(turn:int): MoveResult</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="520" width="456.6" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="248.3" y="538.852">ScoreBoard</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="548" width="456.6" height="52"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="561.881">-_numScores: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="577.881">-_scoreFile: std::string</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="593.881">-_scores: Scores</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="20" y="600" width="456.6" height="68"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="613.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="629.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="645.881">+Show(f:FILE*,rank:int,score:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="23" y="661.881">+~ScoreBoard()</text>
+    </g>
+    <g>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="580" y="20" width="718.4" height="28"/>
+      <text font-size="16" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:sans-serif;font-style:normal;font-weight:700" x="939.2" y="38.8516">Worm</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="580" y="48" width="718.4" height="180"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="61.8813">-_dir: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="77.8813">-_field: Field*</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="93.8813">-_head: Field::Item</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="109.881">-_headx: Field::Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="125.881">-_heady: Field::Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="141.881">-_lengthen: int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="157.881">-_tailx: Field::Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="173.881">-_taily: Field::Dim</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="189.881">-NUM_DIRECTIONS: static const int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="205.881">#_colourNum: Field::ColourNum</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="221.881">+FOOD: static const Field::Item</text>
+      <rect style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" x="580" y="228" width="718.4" height="196"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="241.881">#Direction(dir:int): static int</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="257.881">#IsGoable(item:Field::Item): bool</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="273.881">#Lengthen(length:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="289.881">#Move(): MoveResult</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="305.881">#MoveHead(): MoveResult</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="321.881">#MoveTail(): bool</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="337.881">#Peek(turn:int): Field::Item</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="353.881">#Turn(turn:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="369.881">+v:Reset(headx:Field::Dim,heady:Field::Dim,dir:int,length:int)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="385.881">+ShowHead(head:Field::Item)</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="401.881">+v:TryMove(turn:int): MoveResult</text>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="583" y="417.881">+Worm(field:Field*,head:Field::Item,foreground:Field::ColourNum,background:Field::ColourNum)</text>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="939.2,442.236 939.2,480 1239.95,480 1239.95,620 "/>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="947.2,442.236 939.2,426.236 931.2,442.236 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="939.2,442.236 939.2,480 805.3,480 805.3,520 "/>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="947.2,442.236 939.2,426.236 931.2,442.236 "/>
+    </g>
+    <g>
+      <polyline style="fill: none; stroke-opacity: 1; stroke-width: 2; stroke: #000000" points="1340,122 1340,106 1323.57,106 "/>
+      <polygon style="fill: #ffffff; fill-opacity: 1; stroke-opacity: 1; stroke-width: 2; stroke: #000000" fill-rule="evenodd" points="1298.4,106 1312.4,101.2 1326.4,106 1312.4,110.8 "/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:middle;font-family:monospace;font-style:normal;font-weight:normal" x="1319.2" y="102.981"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1344" y="117.881"/>
+      <text font-size="12.8" style="fill: #000000; fill-opacity: 1; stroke: none;text-anchor:start;font-family:monospace;font-style:normal;font-weight:normal" x="1330.4" y="102.981"/>
+    </g>
+  </g>
+</svg>

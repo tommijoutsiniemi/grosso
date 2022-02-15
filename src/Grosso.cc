@@ -1,0 +1,26 @@
+//
+// Grosso: Grosso.cc
+//
+
+// 2002/06/09 10:29:50 tommi
+
+///////////////////////////////////////////////////////////////////////////
+
+#include "config.hh"
+#include "Grosso.hh"
+
+///////////////////////////////////////////////////////////////////////////
+
+Grosso::Grosso(Field* field, Field::Item head, Field::ColourNum fg, Field::ColourNum bg)
+  :Worm(field, head, fg, bg)
+{
+}
+
+///////////////////////////////////////////////////////////////////////////
+
+Grosso::MoveResult
+Grosso::TryMove(int turn)
+{
+  Turn(turn);
+  return Move();
+}

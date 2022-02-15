@@ -1,0 +1,73 @@
+.TH grosso l "Oct 10 1997"
+.UC 4
+.SH NAME
+grosso - a simple worm game for character terminals
+.SH SYNOPSIS
+.B grosso
+[
+.B \-f<num_#'s>
+]
+[
+.B \-h<height>
+]
+[
+.B \-s<sleeptime>
+]
+[
+.B \-v
+]
+[
+.B \-w<width>
+]
+.SH DESCRIPTION
+.PP
+.I grosso 
+is a simple character terminal game. The player controls the
+O-headed worm, trying to eat *'s and avoid anything else. There are 10
+*'s on each level to be eaten, plus three extra worms which are
+#-headed. #'s can also eat *'s, and in fact this gives more points than
+the player controlled worm eating them.
+
+The whole screen is the game area, and the edges wrap, i.e. going over
+the right edge brings the worm back from the left edge.
+
+There is a global list of top 20 scores, which is updated and
+displayed after every game.
+.SH OPTIONS
+.TP
+.B \-f<num#'s>
+Specify the number of the #-headed worms.
+.TP
+.B \-h<height>
+Use the specified height instead of the screen height.
+.TP
+.B \-s<sleeptime>
+Use the specified time as the pause between moves. The time is given
+in milliseconds. The default value is 120.
+.TP
+.B \-v
+Display the version number.
+.TP
+.B \-w<width>
+Use the specified width instead of the screen width.
+.SH KEYS
+The following keys are used to control the game:
+.TP
+.B Space
+Pause the game. Very helpful in tight situations.
+.TP
+.B v
+Turn left.
+.TP
+.B n
+Turn right.
+.TP
+.B h
+Display a help page.
+.TP
+.B q
+Quit the game. Asks for confirmation.
+.SH AUTHOR
+t@jniemi.fi
+.SH BUGS
+None known. There must be a few, though...

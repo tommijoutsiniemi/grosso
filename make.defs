@@ -1,0 +1,59 @@
+#
+# Grosso: make.defs
+#
+
+# $Id: make.defs,v 1.1.1.1 2002/06/09 10:29:49 tommi Exp $
+
+###########################################################################
+
+PREFIX	= /usr
+
+BINDIR	= $(PREFIX)/games
+
+LIBDIR	= $(PREFIX)/lib/games
+
+MANDIR	= $(PREFIX)/man
+
+LEVELDIR= $(LIBDIR)/grosso
+
+SCOREDIR= /var/lib/games
+
+###########################################################################
+
+CXX	= g++ -pipe
+
+ifeq ($(MAKECMDGOALS),debug)
+	DEBUG	= -g
+else
+	DEBUG	= -O3
+endif
+
+WARNINGS= -Wall -Wpointer-arith -Wcast-align -Woverloaded-virtual
+
+INCLUDES=
+
+CXXFLAGS= $(DEBUG) $(WARNINGS) $(INCLUDES) $(CXXEXTFLAGS) \
+	  -DSCOREDIR=\"$(SCOREDIR)\" -DLEVELDIR=\"$(LEVELDIR)\"
+
+LIBS	= -lstdc++ -lncurses
+
+BINARY	= grosso
+
+###########################################################################
+
+INSTALL	= install
+
+COMPRESS= gzip -fq9
+
+#MKDIRHIER= mkdirhier
+MKDIRHIER= mkdir -p
+
+ETAGS	= etags
+
+ETAGSFLAGS = -l c++
+
+MAKEDEPEND = makedepend
+
+DEPFLAGS = -DMAKEDEPEND
+
+MAKE += -j5

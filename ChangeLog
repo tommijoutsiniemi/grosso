@@ -1,0 +1,31 @@
+1997-10-14  Tommi Joutsiniemi  <Tommi.Joutsiniemi@nic.fi>
+
+	* Debianized: Added support for DESTDIR installation prefix and
+	changed the locations, owners and modes of all installed files.
+
+	* Reorganized the source tree.
+
+1997-10-11  Tommi Joutsiniemi  <Tommi.Joutsiniemi@nic.fi>
+
+	* Added color support.
+
+Tue Mar 25 23:03:43 1997  Tommi Joutsiniemi  <Tommi.Joutsiniemi@nic.fi>
+
+	* Moved make definitions to a separate file, and created two
+ 	versions of it: make.defs.como and make.defs.g++.
+
+	* Modified to compile with Comeau C++, mostly by dropping streams
+ 	and fixing includes.
+
+Sun Mar 23 12:57:18 1997  Tommi Joutsiniemi  <Tommi.Joutsiniemi@nic.fi>
+
+	* Field.cc (Field): Removed class Yard, merged to class Field.
+
+Sat Mar 22 12:55:57 1997  Tommi Joutsiniemi  <Tommi.Joutsiniemi@nic.fi>
+
+	* Field.hh: Moved Field's typedefs inside the class. Now much more
+ 	easier and straightforward to use.
+
+Thu Oct  3 22:24:42 1996  Tommi Joutsiniemi  <Tommi.Joutsiniemi@nic.fi>
+
+	* First functional version, no known bugs!
