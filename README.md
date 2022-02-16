@@ -2,7 +2,7 @@
 
 ## Grosso worm game
 
-Grosso was designed for Unix systems and for 80x24 character terminal.
+Grosso was designed for Unix systems and for 80x24 character terminal. It also runs on Cygwin.
 
 ![alt text](https://github.com/tommijoutsiniemi/grosso/blob/main/misc/grosso-ss.png?raw=true)
 
