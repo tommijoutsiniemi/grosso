@@ -14,6 +14,9 @@ OBJS    = Field.o Fred.o Game.o Grosso.o ScoreBoard.o Worm.o main.o
 
 SRCS    = $(OBJS:.o=.cc)
 
+OWNER	= Administrator
+GGROUP	= Administrators
+
 ###########################################################################
 
 release debug all: $(BINARY)
@@ -23,7 +26,7 @@ $(BINARY): $(OBJS)
 
 install: all
 	-$(MKDIRHIER) $(DESTDIR)$(BINDIR)
-	-$(INSTALL) --owner root --group games --mode 2755 --strip \
+	-$(INSTALL) --owner $(B_OWNER) --group $(B_GROUP) --mode $(B_MODE) --strip \
 		$(BINARY) $(DESTDIR)$(BINDIR)
 
 tags:

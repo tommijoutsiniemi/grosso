@@ -16,11 +16,11 @@ release debug clean dep tags:
 
 install:
 	-$(MKDIRHIER) $(DESTDIR)$(LEVELDIR)
-	-$(INSTALL) --owner root --group root --mode 644 \
+	-$(INSTALL) --owner $(L_OWNER) --group $(L_GROUP) --mode $(L_MODE) \
 		$(LEVELS) $(DESTDIR)$(LEVELDIR)
 	-$(MKDIRHIER) $(DESTDIR)$(SCOREDIR)
-	-$(INSTALL) --owner root --group games --mode 660 \
+	-$(INSTALL) --owner $(S_OWNER) --group $(S_GROUP) --mode $(S_MODE) \
 		grosso.scores $(DESTDIR)$(SCOREDIR)
 	-$(MKDIRHIER) $(DESTDIR)$(MANDIR)/man6
-	-$(INSTALL) --mode 644 grosso.6 $(DESTDIR)$(MANDIR)/man6
+	-$(INSTALL) --mode $(M_MODE) grosso.6 $(DESTDIR)$(MANDIR)/man6
 	-$(COMPRESS) $(DESTDIR)$(MANDIR)/man6/grosso.6

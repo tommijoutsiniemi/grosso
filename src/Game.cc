@@ -31,7 +31,7 @@ Game::Game(int width, int height, int numFreds, int sleepTime)
 
   // initialize field and grosso
   field_ = new Field(width, height, COLOR_BLUE, COLOR_WHITE);
-  foodColourNum_ = field_->NewColour(COLOR_GREEN, COLOR_WHITE);
+  foodColourNum_ = field_->NewColour(COLOR_CYAN, COLOR_WHITE);
   textColourNum_ = field_->NewColour(COLOR_BLACK, COLOR_WHITE);
   grosso_ = new Grosso(field_, 'O', COLOR_BLACK, COLOR_WHITE);
 

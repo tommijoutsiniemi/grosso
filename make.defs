@@ -18,6 +18,22 @@ LEVELDIR= $(LIBDIR)/grosso
 
 SCOREDIR= /var/lib/games
 
+OS	= $(shell uname -o)
+
+ifeq ($(OS), Cygwin)
+B_OWNER = $(USER)
+B_GROUP = None
+B_MODE  = 2755
+L_OWNER = $(USER)
+L_GROUP = None
+L_MODE  = 644
+S_OWNER = $(USER)
+S_GROUP = None
+S_MODE  = 660
+M_MODE  = 644
+else
+endif
+
 ###########################################################################
 
 CXX	= g++ -pipe
