@@ -32,6 +32,16 @@ S_GROUP = None
 S_MODE  = 660
 M_MODE  = 644
 else
+B_OWNER = root
+B_GROUP = games
+B_MODE  = 2755
+L_OWNER = root
+L_GROUP = games
+L_MODE  = 644
+S_OWNER = root
+S_GROUP = games
+S_MODE  = 660
+M_MODE  = 644
 endif
 
 ###########################################################################
