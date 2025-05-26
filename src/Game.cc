@@ -340,7 +340,7 @@ Game::Help()
      "  This program is PostcardWare: As you have come as far as reading\n"
      "  this message, you might as well send a picture postcard to: *B->\n"
      " \n"
-     "    Tommi Joutsiniemi\n"
+     "    Kiimo Oy\n"
      "    Lukinkatu 2d\n"
      "    33580 Tampere\n"
      "    Finland\n"
